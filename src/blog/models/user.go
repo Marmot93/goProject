@@ -4,7 +4,7 @@ import "github.com/astaxie/beego/orm"
 
 type User struct {
 	Id   int
-	Age  int16
+	Age  int
 	Name string
 }
 
