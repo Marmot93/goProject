@@ -1,8 +1,13 @@
+# 注册管理员
 signup_enabled: false
+
+# 七牛云
 qiniu_accesskey: vKQNTxH_Za1JWGVllKRo7SI5oBmPIhVXIRjlE1oW
 qiniu_secretkey: EYd-BgvxwD_OOGO9IFmqwY82h-rrX3nFOcABatR8
 qiniu_fileserver: oor3iu2zw.bkt.clouddn.com
 qiniu_bucket: marmot
+
+# github登录
 github_clientid:
 github_clientsecret:
 github_authurl: https://github.com/login/oauth/authorize?client_id=%s&scope=user:email&state=%s
@@ -10,6 +15,8 @@ github_authurl: https://github.com/login/oauth/authorize?client_id=%s&scope=user
 github_redirecturl: http://localhost:8090/oauth2callback
 github_tokenurl: https://github.com/login/oauth/access_token
 github_scope:
+
+#　邮箱
 smtp_username:
 smtp_password:
 smtp_host:
