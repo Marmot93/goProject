@@ -1,0 +1,20 @@
+signup_enabled: false
+qiniu_accesskey: vKQNTxH_Za1JWGVllKRo7SI5oBmPIhVXIRjlE1oW
+qiniu_secretkey: EYd-BgvxwD_OOGO9IFmqwY82h-rrX3nFOcABatR8
+qiniu_fileserver: oor3iu2zw.bkt.clouddn.com
+qiniu_bucket: marmot
+github_clientid:
+github_clientsecret:
+github_authurl: https://github.com/login/oauth/authorize?client_id=%s&scope=user:email&state=%s
+# 与github配置的回调地址一致
+github_redirecturl: http://localhost:8090/oauth2callback
+github_tokenurl: https://github.com/login/oauth/access_token
+github_scope:
+smtp_username:
+smtp_password:
+smtp_host:
+session_secret: wblog
+domain:
+public: static
+addr: :8090
+backup_key:

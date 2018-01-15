@@ -1,16 +1,16 @@
 package main
 
 import (
+	"blog/controllers"
+	"blog/helpers"
+	"blog/models"
+	"blog/system"
 	"github.com/cihub/seelog"
 	"github.com/claudiu/gocron"
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"
 	"html/template"
 	"net/http"
-	"blog/controllers"
-	"blog/helpers"
-	"blog/models"
-	"blog/system"
 )
 
 func init() {
